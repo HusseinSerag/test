@@ -1,0 +1,22 @@
+.enlarge li{
+    list-style: none;
+    text-align: center;
+}
+
+   .enlarge a:visited , .enlarge a:link{
+    text-decoration: none;
+    background-color: rgb(136, 194, 255);
+   border:1px solid black;
+    margin-bottom: 1px;
+    display:block;
+    width:fit-content;
+    
+   } 
+   .enlarge a:hover, .enlarge a:active{
+    font-size:15px;
+   }
+
+
+
+
+
