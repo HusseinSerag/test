@@ -1,3 +1,11 @@
+
+h1{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(255, 203, 203);
+    height: 50px;
+    border-radius: 50px;
+}
 .enlarge li{
     list-style: none;
     text-align: center;
@@ -14,6 +22,10 @@
    } 
    .enlarge a:hover, .enlarge a:active{
     font-size:15px;
+   }
+   .section{
+    background-color: rgb(255, 255, 197);
+    
    }
 
 
