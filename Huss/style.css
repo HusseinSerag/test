@@ -1,4 +1,7 @@
-
+html{
+    background-color: rgb(218, 218, 255);
+    text-align: center;
+}
 h1{
     text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -17,7 +20,8 @@ h1{
    border:1px solid black;
     margin-bottom: 1px;
     display:block;
-    width:fit-content;
+    width:100px;
+    position: relative;left :660px;
     
    } 
    .enlarge a:hover, .enlarge a:active{
@@ -25,10 +29,22 @@ h1{
    }
    .section{
     background-color: rgb(255, 255, 197);
-    
+   
    }
-
-
-
-
-
+.left{
+    font-size: 170%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+.change span{
+    opacity: 20%;
+}
+.change span:hover{
+    opacity:100%;
+}
+a{
+    text-decoration:none ;
+}
+#question{
+    font-weight: bolder;
+}
